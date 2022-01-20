@@ -5,13 +5,13 @@ app:
   
 build:
   build_file: pom.xml
-  env: DEV
+  env: PROD
   image_template: springboot-v2
   output_files: target/*.jar
   version: 0.4
   
 deploy:
-  context: anushab7/DEV
+  context: anushab7/PROD
   port: 8080
   replicas: 1
   
