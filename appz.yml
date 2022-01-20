@@ -16,11 +16,11 @@ deploy:
   replicas: 1
   
 properties:
-  title: Spring Boot Web - Thursday 
+  title: Spring Boot Web PROD - Thursday 
   DB_HOST: postgres13-master-13-x
   DB_NAME: springbootweb
   DB_PORT: 5432
   DB_USERNAME: springbootweb
   SPRINGBOOTWEB_PASSWORD:
     vault: POSTGRESQL_SPRINGBOOTWEB_PASSWORD
-  nano: 85
+  nano: 86
